@@ -1,0 +1,413 @@
+@font-face {
+    font-family: futura-pt;
+    src: url(FuturaPTLight.otf) format("truetype");
+}
+  
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt;
+    width: 100%;
+    font-weight: bold;
+}
+h1 , h3{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.left{
+    float: left;
+}
+.left li {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    line-height: 30px;
+
+}
+.left li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.right {
+    float: right;
+    
+}
+.right li{
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    line-height: 30px;
+}
+.right li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.right .item1 {
+    color: #0000ff;
+}
+nav hr{
+    width: 100%;
+    color: #f2f2f2;
+}
+.nav-2 {
+    float: left;
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.nav-2 li{
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    line-height: 30px;
+}
+.nav-2 li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+.nav-2 li  .orange{
+    color: #f77737;
+}
+.bg-main {
+    background-image: url("img/bg.png");
+    padding: 20em;
+    margin: 68px 128px 128px 128px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.theory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 758px;
+    height: 205px;
+    margin: 128px 384px;
+}
+.theory .inner h3{
+    font-size: 30px;
+    line-height: 42px;
+}
+.theory .inner h3 span{
+    color: #0000ff;
+}
+.theory .inner p{
+    margin-top: 21px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-col {
+    width: 1536px;
+    height: 895px;
+    position: relative;
+}
+.about-col .yell {
+    float: right;
+    width: 895px;
+    height: 895px;
+    background-color: #fbffa7;
+    position: relative;
+    
+}
+.about-col .yell .img-1{
+    width: 511px;
+    height: 384px;
+    margin: 256px 128px 256px 256px;
+}
+.about-col  .img-2{
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    
+    margin: 128px 768px 128px 128px;
+}
+.theory-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 758px;
+    height: 205px;
+    margin: 128px 384px;
+}
+.theory-1 .inner-1 h3{
+    font-size: 30px;
+    line-height: 42px;
+}
+.theory-1 .inner-1 p{
+    margin-top: 21px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.theory-2 {
+    position: relative;
+    width: 768px;
+    height: 432px;
+}
+.theory-2 .v-img{
+    margin: 128px 367px 384px;
+}
+.theory-2 .play{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 100px;
+    
+}
+
+.theory-2 p{
+    position: relative;
+    margin: 5px 5px 5px 0px;
+    left: 48%;
+    bottom: 90%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    font-weight: 500;
+}
+.theory-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 758px;
+    height: 205px;
+    margin: 428px 380px 128px 380px;
+}
+.theory-3 .inner-1 h3{
+    font-size: 30px;
+    line-height: 42px;
+}
+.theory-3 .inner-1 p{
+    margin-top: 21px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-col-2 {
+    width: 1536px;
+    height: 895px;
+    position: relative;
+}
+.about-col-2 .gree {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 895px;
+    height: 1152px;
+    background-color: #b6ffc0;
+    position: relative;
+    
+}
+.about-col-2 .gree .img-1{
+    width: 511px;
+    height: 384;
+    margin: 128px 256px auto 128px;
+}
+.about-col-2 .gree .img-4{
+    width: 511px;
+    height: 384;
+    margin: 128px 256px 128px 128px;
+}
+.about-col-2  .img-2{
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    top: 14%;
+    left: 50%;
+    margin: 128px 0px 128px 0px;
+}
+.theory-4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 758px;
+    height: 205px;
+    margin: 412px 0px 0px 384px;
+}
+.theory-4 .inner-1{
+    position: absolute;
+    /* display: block; */
+}
+.theory-4 .inner-1 h1{
+    font-size: 30px;
+    line-height: 42px;
+    margin-top: 0px;
+}
+.theory-4 .inner-1 p{
+    margin-top: 21px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.image{
+    background: url('img/poster-meet-the-makers.jpg');
+    width: 1200px;
+    height: 726px;
+    margin: 160px 0px 128px 128px;
+}
+
+.theory-5 .inner-1{
+    width: 768px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 128px 384px 0px 384px;
+}
+.theory-5 .inner-1 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.backpurp{
+    width: 1536px;
+    height: 850px;
+    
+}
+.purp {
+    width: 1000px;
+    height: 850px;
+    background-color: #d5b3ff;
+    margin: 128px 256px 0px 256px;
+    position: relative;
+    padding: 0;
+}
+.backpurp .purp .img-6{
+    position: absolute;
+    width: 511px;
+    height: 384px;
+    top: 25%;
+    right: 63%;
+
+}
+.backpurp .purp .img-7{
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    top: 12%;
+    left: 63%;
+}
+.theory-6 .inner {
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 128px 384px 0px 384px;
+    padding: 0%;
+}
+.theory-6 .inner h1{
+    padding: 0%;
+    margin: 0%;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+}
+.theory-6 .inner p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+.wrapper {
+    width: 1536px;
+    height: 640px;
+    margin: 128px 128px 0px 128px;
+    position: relative;
+    
+}
+.wrapper .card{
+    display: flex;
+    position: relative;
+}
+.card .img-8 {
+    width: 640px;
+    height: 640px;
+    float: left;
+}
+.card .text{
+    float: right;
+    width: 640px;
+    height: 640px;
+    background-color: #b1c5ff;
+}
+.card .text .inner-text{
+    margin: 201px 128px;
+    display: flex;
+    flex-direction: column;
+}
+.card .text .inner-text h1{
+    font-size: 30px;
+    line-height: 42px;
+}
+.card .text .inner-text a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 42px;
+    margin-top: 30px;
+    color: #0000ff;
+}
+footer {
+    width: 1280px;
+    height: 808;
+    position: relative;
+    margin: 128px;
+    
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer h1{
+    display: block;
+    width: 300px;
+    font-size: 50px;
+    margin: 50px;
+    font-weight: bolder;
+}
+.container .Reg{
+    width: 384px;
+    height: 182px;
+
+    margin-left: 0%;
+}
+.container .Reg ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.container .Reg ul li{
+    display: block;
+    
+    height: 29px;
+    padding: 0%;
+    margin-top: 5px;
+    
+}
+.container .Reg ul li h5{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0%;
+    margin: 0;
+}
+.container .Reg ul li a{
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000;
+    
+}
