@@ -1,2 +1,2 @@
 This UI from Frontend Practice https://www.frontendpractice.com/project/ableton
-✅Using puer HTML&CSS
+✅Using pure HTML&CSS
